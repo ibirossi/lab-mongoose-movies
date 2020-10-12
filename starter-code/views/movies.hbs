@@ -1,0 +1,8 @@
+<h1>Welcome</h1>
+{{#each movie}}
+<a href="/movies/showdetails/{{this._id}}">
+<div>
+    {{this.title}}
+</div>
+</a>
+{{/each}}
